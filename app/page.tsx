@@ -8,7 +8,7 @@ const L = {
 };
 
 const fill = "inline-flex items-center gap-2 rounded-full border border-burgundy bg-burgundy px-6 text-sm font-medium tracking-wide text-cream transition hover:border-ink hover:bg-ink";
-const line = "inline-flex items-center gap-2 rounded-full border border-sand px-6 text-sm font-medium tracking-wide text-burgundy transition hover:bg-sand";
+const line = "inline-flex items-center gap-2 rounded-full border-2 border-burgundy px-6 text-sm font-medium tracking-wide text-burgundy transition hover:bg-burgundy hover:text-cream";
 const h2 = "text-4xl font-normal leading-[1.08] text-burgundy md:text-5xl";
 const h3 = "text-2xl font-semibold text-burgundy sm:text-3xl";
 const wrap = "mx-auto w-full max-w-[1200px] px-6 lg:px-[120px]";
@@ -241,7 +241,7 @@ export default function Home() {
             <HeroAvatar />
             <p className="text-center text-[30px] leading-[1.05] text-burgundy sm:text-[34px]">Răzvan-Andrei<br />Borca</p>
             <span className="h-0.5 w-16 bg-burgundy" />
-            <p className="text-center text-xs font-medium tracking-wider text-burgundy">BACKEND &amp; EMBEDDED DEVELOPER</p>
+            <p className="text-center text-xs font-medium tracking-wider text-burgundy">JUNIOR SOFTWARE ENGINEER</p>
           </div>
           <div className="flex flex-1 flex-col items-start gap-6">
             <div className="flex flex-wrap items-center gap-2">
@@ -266,7 +266,7 @@ export default function Home() {
               <a href={L.cv} target="_blank" rel="noreferrer" className={`${fill} h-12`}>RESUME ↗</a>
               <a href="#projects" className={`${line} h-12`}>PROJECTS</a>
             </div>
-            <p className="max-w-xl text-base font-light leading-7">I&apos;m a Computer Engineering student at University Politehnica of Bucharest. I enjoy building things end to end — from REST APIs to Rust firmware.</p>
+            <p className="max-w-xl text-base font-light leading-7">Computer Science &amp; Engineering student at Politehnica Bucharest. I enjoy understanding systems end-to-end and building reliable software — from clean API design and databases to full application logic.</p>
           </div>
         </div>
       </section>
@@ -405,7 +405,7 @@ export default function Home() {
         <div className={`${wrap} flex flex-col gap-10`}>
           <div className="flex flex-col gap-4">
             <Eyebrow>03 / SELECTED PROJECTS</Eyebrow>
-            <h2 className={h2}>FROM SERVERS TO SENSORS.</h2>
+            <h2 className={h2}>FROM IDEA TO REALITY.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
             {featured.map((p) => (
