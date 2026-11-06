@@ -7,8 +7,9 @@ const outfit = Outfit({ subsets: ["latin", "latin-ext"], variable: "--font-outfi
 const plex = IBM_Plex_Mono({ subsets: ["latin"], weight: "400", variable: "--font-plex" });
 
 export const metadata: Metadata = {
+     metadataBase: new URL("https://www.borcarazvan.tech"),
   title: "Răzvan Borca — Junior IT Engineer",
-  description: "Computer Engineering student building backend services and embedded systems with Java, Spring Boot and Rust.",
+description: "Computer Science & Engineering student at Politehnica Bucharest, building reliable software from API design and databases to full application logic.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
