@@ -32,10 +32,11 @@ export default function HeroAvatar() {
         </div>
       ) : (
         <Image
-          src="/avatar/razvan.png"
+          src="/avatar/razvan.webp"
           alt="Răzvan-Andrei Borca"
           fill
-          sizes="256px"
+          sizes="(max-width: 639px) 224px, 256px"
+          quality={90}
           priority
           className="object-cover"
         />
